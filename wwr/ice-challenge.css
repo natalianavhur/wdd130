@@ -1,0 +1,35 @@
+#content{
+    background-color: #feefd6;
+}
+header {
+    background-color: rgb(187, 214, 223);
+    color: black;
+    text-decoration: none;
+    padding: 0;
+    margin: 2px;
+    text-align: center;
+}
+
+.phrase {
+    text-align: center;
+    font-style: italic;
+}
+
+.bullet-box {
+    display: flex;
+    justify-content: center;
+}
+img {
+    width:30%;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+footer{
+    background-color: lightblue;
+    color: black;
+    text-decoration: none;
+    padding: 0;
+    margin: 0px;
+    text-align: center;
+}

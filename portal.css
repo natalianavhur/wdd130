@@ -1,6 +1,14 @@
-*content{
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@600&display=swap');
+body {
+    font-family: Lato, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+*content {
     max-width: 1600px;
 }
+
 a {
     background-color: lightblue;
     color: rgb(71, 69, 69);
@@ -8,11 +16,12 @@ a {
     padding: 10px;
     margin: 5px;
     text-align: center;
+    border-radius: 5px;
 }
 
 a:hover {
-    background-color: darkgray;
-    color: white;
+    background-color: rgb(65, 63, 63);
+    color: whitesmoke;
 }
 
 nav {
@@ -23,20 +32,26 @@ nav {
 h1 {
     font-size: 1.5em;
     text-align: center;
+    padding: 30px;
 }
 
 img {
-    width: 60%;
+    width: 70%;
     text-align: center;
     display: block;
     margin: 0 auto;
+    border: 3px solid lightblue;
+    padding: 40px;
+    box-sizing: border-box;
+    border-radius: 5px;
 }
 
 p {
     /* text-align: center; */
-    width: 40%;
+    width: 70%;
     margin: 10px auto;
-    padding: 10px;
+    padding: 15px;
+    box-sizing: border-box;
 }
 
 #primary {

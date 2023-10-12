@@ -1,0 +1,22 @@
+#content{
+    background-color: #d3d2d1;
+}
+img {
+    width:50%;
+    box-sizing: 0 auto;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+p{
+    text-align: center;
+}
+h1{
+    color: rgb(39, 123, 151);
+}
+nav {
+    color: rgb(48, 179, 199);
+}
+a:hover{
+    color:rgb(35, 35, 67);
+}

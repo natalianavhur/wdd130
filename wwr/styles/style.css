@@ -1,15 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@600&display=swap');
 body{
     background-color: beige;
+    font-family: Lato, sans-serif, Verdana;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+headline{
+    font-family: Montserrat, sans-serif, Verdana, Georgia;
 }
 #content{
     max-width: 1600px;
     margin: 0 auto;
+}
+h2{
+    margin: 0;
 }
 h4{
     color: #FF9319;
 }
 header{
     background-color: #bd8c53;
+}
+#logo_link{
+    padding-top: 5px;
 }
 .logo{
     width:80px;
@@ -18,6 +32,7 @@ nav a{
     text-align: center;
     color:black;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover{
     background-color: rgb(45, 42, 42);;
@@ -34,6 +49,8 @@ nav a:hover{
 }
 .home-title{
     color: rgb(45, 42, 42);
+    font-size: 2em;
+    margin-top: 10px;
 }
 .button-box{
     text-align: center;
@@ -42,16 +59,36 @@ nav a:hover{
     background-color: whitesmoke;
     color: rgb(45, 42, 42);
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover{
     background-color:rgb(45, 42, 42);
     color: whitesmoke;
-}
+} 
 main section{
     text-align: center;
 }
+.rivers-card{
+    margin: 200px 0;
+}
+.camping-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid black;
+}
+.rapids-card{
+    margin: 200px 0;
+}
 .icon{
     width: 80px;
+    padding-top: 10px;
+}
+main section img{
+    box-sizing: border-box;
 }
 #background {
     background-color: whitesmoke;
@@ -59,17 +96,25 @@ main section{
 }
 .msg{
     background-color: #bd8c53;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2{
     color: black;
 }
 .msg p{
     color: black;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 .join{
     background-color: azure;
     color: #004466;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .join:hover{
     background-color: rgb(45, 42, 42);
@@ -78,6 +123,8 @@ main section{
 footer{
     background-color: #bd8c53;
     color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer p{
     font-size: 1.2em;
@@ -91,4 +138,7 @@ footer a:hover{
 }
 footer p a:hover{
     text-decoration: underline;
+}
+footer .social img{
+    padding-top: 15px;
 }

@@ -68,7 +68,7 @@ nav a:hover{
 }
 #hero-msg h4{
     text-align: center;
-    color:white;
+    color:whitesmoke;
 }
 #hero-box{
     grid-column: 1/4;
@@ -76,7 +76,7 @@ nav a:hover{
     z-index: -1;
 }
 .home-title{
-    color: rgb(45, 42, 42);
+    color: rgb(243, 228, 228);
     font-family: Montserrat;
     font-size: 2em;
     margin-top: 10px;
@@ -133,7 +133,7 @@ main section img{
     box-sizing: border-box;
 }
 #background {
-    background-color: whitesmoke;
+    background-color: #bbab98;
     height: 725px;
     grid-column: 1/11;
     grid-row: 4/9;

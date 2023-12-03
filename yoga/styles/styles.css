@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat:wght@600&family=Roboto+Condensed&display=swap');
 
-#home_body {
-    background-color: beige;
+body {
+    background-color: rgb(238, 237, 237);
     font-family: Lato, sans-serif, Verdana;
     font-size: 22px;
     margin: 0;
@@ -48,7 +48,7 @@ nav a:hover {
 /* main information of Home Page*/
 
 .home_main {
-    background-color: rgb(245, 245, 214);
+    background-color: rgb(238, 237, 237);
     font-family: Lato, sans-serif, Verdana;
     font-size: 22px;
     max-width: 800px;
@@ -152,18 +152,19 @@ footer .social img {
 }
 
 
-
 /* Styles Page CSS */
 
 .yoga_definition h2 {
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif, Verdana;
+    color: #5894FB;
 }
 
 .yoga_definition p {
-    font-family: Lato;
-    padding: 20px;
+    font-family: Lato, sans-serif, Verdana;
     font-size: 20px;
-    /* background-color: ; */
+    text-align: center;
+    margin: 30px;
+    padding: 30px;
 }
 
 .styles_image_text_grid {
@@ -180,12 +181,20 @@ footer .social img {
 .styles_image_text_grid img {
     max-width: 100%;
     padding: 30px;
+    height: 350px;
 }
 
 .styles_image_text_grid p {
     margin: 0;
-    font-family: Lato;
+    font-family: Lato, sans-serif, Verdana;
     padding: 30px;
     font-size: 20px;
+    text-align: center;
 }
-
+.styles_text_grid{
+    font-family: Lato, sans-serif, Verdana;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    margin: 30px;
+}

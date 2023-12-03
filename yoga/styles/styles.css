@@ -77,11 +77,11 @@ h2 {
 
 .image_grid img {
     max-width: 100%;
-    height: auto;
+    height: 300px;
 }
 
 .image_grid p {
-    font-family: Lato, Verdana, sans-serif;
+    font-family: "Roboto Condensed", Lato, Verdana, sans-serif;
     font-size: 25px;
 }
 
@@ -99,15 +99,10 @@ h2 {
 }
 
 .image_text_grid p {
-    font-family: Lato, Verdana, sans-serif;
-    font-size: 20px;
-}
-
-.image_text_grid p {
     text-align: center;
     grid-column: 2/3;
     font-family: Lato, Verdana, sans-serif;
-    font-size: 20px;
+    font-size: 19px;
 }
 
 .text_grid {
@@ -116,6 +111,7 @@ h2 {
     gap: 20px;
     font-family: Lato, Verdana, sans-serif;
     font-size: 20px;
+    margin: 0;
 }
 
 /* footer information*/
@@ -174,7 +170,7 @@ footer .social img {
     align-items: center;
 }
 
-.styles_image_text_grid > div {
+.styles_image_text_grid>div {
     display: contents;
 }
 
@@ -191,7 +187,8 @@ footer .social img {
     font-size: 20px;
     text-align: center;
 }
-.styles_text_grid{
+
+.styles_text_grid {
     font-family: Lato, sans-serif, Verdana;
     font-size: 20px;
     text-align: center;

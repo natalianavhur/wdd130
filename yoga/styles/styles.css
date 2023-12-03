@@ -10,16 +10,6 @@
     align-items: center;
 }
 
-/* headline {
-    font-family: Montserrat, sans-serif, Verdana, Georgia;
-}
-
-content {
-    max-width: 1600px;
-    margin: 0 auto;
-} */
-
-
 header {
     background-color: #6a0faf;
     display: grid;
@@ -160,3 +150,42 @@ footer p a:hover {
 footer .social img {
     padding-top: 15px;
 }
+
+
+
+/* Styles Page CSS */
+
+.yoga_definition h2 {
+    font-family: Montserrat;
+}
+
+.yoga_definition p {
+    font-family: Lato;
+    padding: 20px;
+    font-size: 20px;
+    /* background-color: ; */
+}
+
+.styles_image_text_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+}
+
+.styles_image_text_grid > div {
+    display: contents;
+}
+
+.styles_image_text_grid img {
+    max-width: 100%;
+    padding: 30px;
+}
+
+.styles_image_text_grid p {
+    margin: 0;
+    font-family: Lato;
+    padding: 30px;
+    font-size: 20px;
+}
+

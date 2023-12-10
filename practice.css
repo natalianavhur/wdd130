@@ -1,0 +1,129 @@
+
+.benefits_main {
+    background-color: rgb(238, 237, 237);
+    font-family: Lato, sans-serif, Verdana;
+    font-size: 22px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+/* Grid container for benefits information */
+.benefits_info {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+/* Image and text grid */
+.benefits_image_text_grid {
+    grid-row: 1 / 2;
+    display: flex;
+    align-items: center;
+}
+
+.benefits_image_text_grid img {
+    max-width: 100%;
+    height: 140px;
+}
+
+.benefits_image_text_grid h4,
+.benefits_image_text_grid p {
+    margin-left: 20px;
+}
+
+/* Image grid with text */
+.benefits_image_grid {
+    grid-row: 2 / 3;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.benefits_image_grid img {
+    max-width: 100%;
+}
+
+.benefits_image_grid div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Text grid in the center */
+.benefits_text_grid {
+    grid-row: 3 / 4;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+/* 
+.benefits_main {
+    background-color: rgb(238, 237, 237);
+    font-family: Lato, sans-serif, Verdana;
+    font-size: 22px; 
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.benefits_info {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.benefits_info>div {
+    display: contents;
+}
+
+.benefits_info img {
+    max-width: 100%;
+    padding: 30px;
+    /* height: 100px; 
+}
+
+.benefits_image_text_grid {
+    grid-row: 1/2;
+}
+
+.benefits_image_text_grid img {
+    grid-column: 2/3;
+}
+
+/* .benefits_image_text_grid p,
+h4 {
+    grid-column: 3/5;
+    margin: 0;
+    padding: 0;
+
+} 
+
+.benefits_image_grid {
+    grid-row: 2/3;
+}
+
+.benefits_image_grid img {
+    max-width: 100%;
+    height: 350px;
+}
+
+.benefits_text_grid p {
+    grid-column: 2/4;
+}
+
+.benefits_text_grid h2 {
+    grid-column: 1/5;
+} */
